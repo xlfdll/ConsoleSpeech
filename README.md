@@ -13,8 +13,14 @@ OR
 
 Put what you want computer to speak as command-line arguments, with the following forms:
 
-* Normal strings as words (ex. ConsoleSpeech.exe I am use Windows)
-* Quoted strings as sentences (ex. ConsoleSpeech.exe "I am use Windows" "What about you?")
+* Normal strings as words
+```
+ConsoleSpeech.exe I am use Windows
+```
+* Quoted strings as sentences
+```
+ConsoleSpeech.exe "I am use Windows" "What about you?"
+```
 
 ## Development Prerequisites
 * Visual Studio 2012+
