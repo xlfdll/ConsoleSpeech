@@ -32,6 +32,8 @@ namespace ConsoleSpeech
             {
                 foreach (String item in args)
                 {
+                    Console.WriteLine("Speaking: " + item);
+
                     synth.Speak(item);
                 }
             }
