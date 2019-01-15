@@ -24,3 +24,5 @@ ConsoleSpeech.exe "I am use Windows" "What about you?"
 
 ## Development Prerequisites
 * Visual Studio 2012+
+
+Before the build, generate-build-number.sh needs to be executed in a Git / Bash shell to generate build information code file (BuildInfo.cs).
